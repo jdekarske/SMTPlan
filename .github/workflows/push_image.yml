@@ -1,6 +1,6 @@
 name: Docker push latest base
 
-on: ["workflow_dispatch"]
+on: push
 
 jobs:
   build-focal:
